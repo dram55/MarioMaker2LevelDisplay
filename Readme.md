@@ -1,6 +1,8 @@
 # Mario Maker 2 Level Display
 A small web app which can be used to display Mario Maker levels. This can be leveraged with OBS Browser Source to display levels on a Twitch Stream.
 
+Can be used in conjunction with [MarioMaker2OCR](https://github.com/dram55/MarioMaker2OCR) to automatically display levels on stream.
+
 
 ## Setup
 - Prerequisite: [Node.js](https://nodejs.org/en/) on your machine
