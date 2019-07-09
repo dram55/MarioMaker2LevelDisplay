@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-16">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <script src="lib/angular.min.js"></script>
+   <script src="app.js"></script>
+
+   <link rel="stylesheet" href="css/style.css">
+
+   <title>Mario Maker Current Level</title>
+</head>
+
+<body ng-app="myApp">
+   <div ng-controller="myController as ctrl">
+      <div ng-if="ctrl.levelCodeAvailable();" class="level-card"
+         ng-class="(ctrl.changeInProgress) ? 'slide-out' : 'slide-in'">
+         <h4 ng-if="ctrl.level.author" class="user-name">{{ctrl.level.author}}</h4>
+         <p class="level-name">{{ctrl.level.name}}</p>
+         <code ng-if="ctrl.level.code" class="level-code text-uppercase">{{ctrl.level.code}}</code>
+      </div>
+
+</body>
+
+</html>
