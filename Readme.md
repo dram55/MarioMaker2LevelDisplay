@@ -13,4 +13,8 @@ Can be used in conjunction with [MarioMaker2OCR](https://github.com/dram55/Mario
 - In OBS set a Browser source and set the URL to http://localhost:3000/
 - Any change to `data\ocrLevel.json` will be reflected in the browser.
 
+## Example
+[Live Example](https://dram55.github.io/MarioMaker2LevelDisplay/)
+
 ![](example.gif)
+
